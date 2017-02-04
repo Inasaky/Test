@@ -1,0 +1,332 @@
+[1] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "webaudio",
+						["UniqueID"] = "2338071758",
+						["Loop"] = true,
+						["URL"] = "https://raw.githubusercontent.com/SpitfireOrMichina/Test/sefg/Marshmello%20-%20Keep%20it%20Mello%20ft.%20Omar%20LinX.mp3",
+						["PauseOnHide"] = true,
+						["MaximumRadius"] = 10,
+						["OuterVolume"] = 2,
+					},
+				},
+				[2] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 255,
+								["Offset"] = 2,
+								["UniqueID"] = "1914088536",
+								["Axis"] = "g",
+								["ClassName"] = "proxy",
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 255,
+								["Offset"] = 1,
+								["UniqueID"] = "214236294",
+								["Axis"] = "b",
+								["ClassName"] = "proxy",
+								["VariableName"] = "Color",
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 10,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "1938745821",
+								["Axis"] = "y",
+								["InputMultiplier"] = 5,
+								["Function"] = "none",
+								["VariableName"] = "AngleOffset",
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Max"] = 255,
+								["ClassName"] = "proxy",
+								["UniqueID"] = "3975429441",
+								["Axis"] = "r",
+								["VariableName"] = "Color",
+							},
+						},
+					},
+					["self"] = {
+						["Model"] = "models/props_phx/construct/metal_plate_curve360.mdl",
+						["UniqueID"] = "1950547345",
+						["Material"] = "http://image.prntscr.com/image/a2a730200e8344fd92eb1575f7b0a279.png",
+						["EditorExpand"] = true,
+						["Position"] = Vector(-2.3250000476837, -1.9950000047684, 0.30899998545647),
+						["Name"] = "led",
+						["Scale"] = Vector(0.89999997615814, 0.89999997615814, 1.6000000238419),
+						["Alpha"] = 0.6,
+						["ClassName"] = "model",
+						["Size"] = 0.161,
+						["AngleOffset"] = Angle(0, 337210.96875, 0),
+						["Color"] = Vector(2.2890918254852, 255, 39.609550476074),
+						["Fullbright"] = true,
+						["Translucent"] = true,
+						["Angles"] = Angle(90, -180, -180),
+					},
+				},
+			},
+			["self"] = {
+				["ClassName"] = "event",
+				["UniqueID"] = "2662745051",
+				["Event"] = "is_flashlight_on",
+				["Operator"] = "equal",
+				["EditorExpand"] = true,
+				["Invert"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["ClassName"] = "group",
+		["UniqueID"] = "3543845660",
+		["EditorExpand"] = true,
+	},
+},
+[2] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+			},
+			["self"] = {
+				["UniqueID"] = "1427724539",
+				["ClassName"] = "entity",
+				["HideEntity"] = true,
+				["Brightness"] = 5,
+			},
+		},
+		[2] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "1511762594",
+						["Bone"] = "left thigh",
+						["Size"] = 0.9,
+						["ScaleChildren"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "3725463076",
+						["Bone"] = "right thigh",
+						["Size"] = 0.9,
+						["ScaleChildren"] = true,
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["ClassName"] = "model",
+				["UniqueID"] = "1942461845",
+				["Model"] = "models/player/group01/male_09.mdl",
+				["EditorExpand"] = true,
+				["Brightness"] = 5,
+				["DoubleFace"] = true,
+			},
+		},
+		[3] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "bone",
+						["UniqueID"] = "704417899",
+						["Bone"] = "spine",
+						["Size"] = 0,
+						["ScaleChildren"] = true,
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["ClassName"] = "clip",
+						["Position"] = Vector(-0.083740234375, -1.4204025268555, -0.06097412109375),
+						["Bone"] = "pelvis",
+						["Angles"] = Angle(1.6086412668228, -89.999847412109, 0.00023573440557811),
+						["UniqueID"] = "3671342642",
+					},
+				},
+			},
+			["self"] = {
+				["BoneMerge"] = true,
+				["ClassName"] = "model",
+				["UniqueID"] = "1551663470",
+				["Model"] = "models/player/group01/male_09.mdl",
+				["Brightness"] = 20,
+				["EditorExpand"] = true,
+			},
+		},
+	},
+	["self"] = {
+		["UniqueID"] = "4020909618",
+		["ClassName"] = "group",
+	},
+},
+[3] = {
+	["children"] = {
+		[1] = {
+			["children"] = {
+				[1] = {
+					["children"] = {
+						[1] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(-88.677490234375, -0.00040228627040051, 0.00030287069967017),
+								["ClassName"] = "clip",
+								["UniqueID"] = "4258239133",
+								["Position"] = Vector(5.1519165039063, 6.271728515625, -0.44717407226563),
+							},
+						},
+						[2] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(5.0473418235779, -89.835838317871, -88.128807067871),
+								["ClassName"] = "clip",
+								["UniqueID"] = "2419469872",
+								["Position"] = Vector(-6.7357177734375, 5.451904296875, 7.8674621582031),
+							},
+						},
+						[3] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(1.764853477478, 179.10032653809, 83.699401855469),
+								["ClassName"] = "clip",
+								["UniqueID"] = "3120382457",
+								["Position"] = Vector(5.416015625, 0.4423828125, 6.8481140136719),
+							},
+						},
+						[4] = {
+							["children"] = {
+							},
+							["self"] = {
+								["Angles"] = Angle(88.13597869873, 0.00036090519279242, 0.00078086752910167),
+								["ClassName"] = "clip",
+								["UniqueID"] = "1379040823",
+								["Position"] = Vector(9.1617431640625, 12.14306640625, 10.586181640625),
+							},
+						},
+					},
+					["self"] = {
+						["UniqueID"] = "95655445",
+						["Name"] = "face",
+						["Scale"] = Vector(1, 1.1000000238419, 1.2999999523163),
+						["Alpha"] = 0.999,
+						["ClassName"] = "model",
+						["Size"] = 0.165,
+						["Model"] = "models/props_phx/construct/metal_plate_curve.mdl",
+						["Material"] = "https://raw.githubusercontent.com/SpitfireOrMichina/Test/sefg/marsh.png",
+						["Angles"] = Angle(-9.3648304755334e-006, 40.19962310791, 1.5733082294464),
+						["Translucent"] = true,
+						["Position"] = Vector(-0.44473266601563, -6.7421875, 0.22714996337891),
+					},
+				},
+				[2] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "4047140121",
+						["Model"] = "models/props_phx/construct/glass/glass_angle360.mdl",
+						["Size"] = 0.15,
+						["Name"] = "black",
+						["Scale"] = Vector(0.89999997615814, 0.89999997615814, 1),
+						["Alpha"] = 0.95,
+						["ClassName"] = "model",
+						["DoubleFace"] = true,
+						["EditorExpand"] = true,
+						["Color"] = Vector(0, 0, 0),
+						["Position"] = Vector(0.00054931640625, 0.0078125, -0.01080322265625),
+						["Translucent"] = true,
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[3] = {
+					["children"] = {
+					},
+					["self"] = {
+						["UniqueID"] = "1814355718",
+						["Model"] = "models/props_phx/construct/glass/glass_angle360.mdl",
+						["Name"] = "black2",
+						["Scale"] = Vector(0.89999997615814, 0.89999997615814, 1),
+						["Alpha"] = 0.5,
+						["ClassName"] = "model",
+						["DoubleFace"] = true,
+						["Size"] = 0.15,
+						["Color"] = Vector(0, 0, 0),
+						["Position"] = Vector(0, 0, 0.12700000405312),
+						["Translucent"] = true,
+						["Material"] = "models/debug/debugwhite",
+					},
+				},
+				[4] = {
+					["children"] = {
+					},
+					["self"] = {
+						["Material"] = "models/debug/debugwhite",
+						["Position"] = Vector(0.000457763671875, -0.0009765625, 11.772827148438),
+						["ClassName"] = "model",
+						["Size"] = 0.15,
+						["UniqueID"] = "4177394329",
+						["Model"] = "models/props_phx/construct/glass/glass_angle360.mdl",
+						["Scale"] = Vector(0.89999997615814, 0.89999997615814, 1),
+					},
+				},
+			},
+			["self"] = {
+				["UniqueID"] = "733925532",
+				["Name"] = "head",
+				["Scale"] = Vector(0.89999997615814, 0.89999997615814, 1.6000000238419),
+				["EditorExpand"] = true,
+				["Size"] = 0.16,
+				["ClassName"] = "model",
+				["Angles"] = Angle(80.498001098633, 90, 90),
+				["Position"] = Vector(-2.3250000476837, -1.9950000047684, 0.30899998545647),
+				["Model"] = "models/props_phx/construct/metal_plate_curve360.mdl",
+				["Material"] = "models/debug/debugwhite",
+			},
+		},
+		[2] = {
+			["children"] = {
+			},
+			["self"] = {
+				["Angles"] = Angle(7.6839627581649e-005, 4.1571021080017, 0.00011099057883257),
+				["UniqueID"] = "645764212",
+				["ClassName"] = "bone",
+			},
+		},
+	},
+	["self"] = {
+		["EditorExpand"] = true,
+		["UniqueID"] = "751053671",
+		["ClassName"] = "group",
+		["Name"] = "my outfit",
+		["Description"] = "add parts to me!",
+	},
+},
